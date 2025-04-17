@@ -13,7 +13,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class WeatherService {
-    private static final String API_KEY = "6c0726505bcb4f4e701791944fd7de06";
+    private static final String API_KEY = "Your_API_key";
 
     public void updateWeatherData(WeatherData weatherData, double latitude, double longitude) {
         try {
